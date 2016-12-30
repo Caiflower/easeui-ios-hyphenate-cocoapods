@@ -229,6 +229,7 @@
  @discussion
  @param conversationModel  会话model
  @result 返回传入会话model最近一条消息提示
+ 该方法返回值声明中为NSAttributedString,实现中却为NSString
  */
 - (NSString *)_latestMessageTitleForConversationModel:(id<IConversationModel>)conversationModel
 {
